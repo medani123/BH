@@ -1,0 +1,261 @@
+.sectionTwo-text hr {
+    color: #02a783;
+    width: 2.8rem;
+    border: 1px solid #02a783;
+}
+
+.sectionTwo-text h3 {
+    color: #013025;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.sectionTwo-text p {
+    color: #949494;
+    font-size: 1.1rem;
+}
+.sectionTwo-text a{
+    color: #02a783;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.HomeSectionTwo img{
+    height: 30rem;
+}
+.getAppIcon{
+    font-size: 1.1rem !important;
+}
+.energy__commitment-head-container{
+    color: #fff;
+}
+.hr{
+    width: 20px;
+    border-bottom: 2px solid #02a783;
+}
+.energy__commitment-head p{
+    font-family: "Poppins",sans-serif;
+    font-size: .75rem;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: .0625rem;
+}
+.energy__commitment-head h2{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.41;
+    letter-spacing: 0;
+}
+.animate .arrow-icon{
+    margin-left: 0px;
+    transition: all 0.5s ease;
+}
+.animate:hover .arrow-icon{
+    margin-left: 20px;
+    transition: all 0.5s ease;
+}
+.Energy__commmitment-data h3{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.625;
+    color: #fff;
+    letter-spacing: 0;
+}
+.Energy__commmitment-data p{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.625;
+    color: rgba(255,255,255,.7);
+    letter-spacing: 0;
+}
+.energy__commitment-counter h3{
+    font-family: "Poppins",sans-serif;
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #fff;
+    letter-spacing: 0;
+}
+.energy__commitment-counter p{
+    font-family: "Poppins",sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.714;
+    letter-spacing: 0;
+    color: rgba(255,255,255,.5);
+}
+.energy__commitment-counter.border-resp{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    height: 70%;
+}
+.card-box{
+    background-color: #2b2b30;
+    border: 1px solid #2b2b30;
+    border-radius: 5px;
+    border: 1px solid #303035;
+    height: 26rem;
+    width: 100%;
+}
+.card-content-text{
+    height: 15rem;
+}
+.card-box hr{
+    color: #02a783;
+    width: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid #02a783;
+}
+.card-box h4{
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.card-box p{
+    font-size: 1rem;
+    color: #949494;
+}
+.card-button{
+    border: 1px solid #fff !important;
+    padding: 0.5rem 2.3rem !important;
+    margin-top: 5rem !important;
+}
+.card-button:hover{
+    background-color: #02a783 !important;
+    border-color: #02a783 !important;
+}
+.cards-container{
+    background-color: #27272c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cards-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cards-head hr{
+    color: #02a783;
+    width: 1.3rem;
+    border: 1.5px solid #02a783;
+}
+.cards-head p{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.cards-head h2{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.cards img{
+    width: 100%;
+    height: 100%;
+}
+.img__border{
+    border-bottom: 2px solid #34b99c;
+    width: 25px;
+}
+.container h6{
+ font-size: 16px;
+ padding: 0;
+ margin: 0;
+}
+.card__title{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+}
+.date {
+    color: #a2a2a2;
+    font-size: 13px;
+}
+.card__description{
+    margin-top: 10px;
+    font-size: .94rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+.feature__card {
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+.feature__title {
+    margin-top: 2rem;
+    font-weight: 600;
+    color: #949494;
+    margin-left: 8px;
+}
+.resource__border{
+  border-bottom: 2px solid #34b99c;
+  width: 25px;
+  margin-left: 2.2rem !important;
+}
+.line-indicator li {
+  display: none !important;
+}
+.buttons {
+  border: 1px solid #2b2b30 !important;
+  color: #2b2b30 !important;
+  border-radius: 50% !important;
+  transition: 200ms;
+}
+.buttons:hover {
+  transform: scale(1.1);
+  color: lightgreen !important;
+  border: 1px solid lightgreen !important;
+}
+.button__icon {
+  font-size: 14px !important;
+}
+.carousel__cards {
+  margin: 20px;
+}
+@media screen and (max-width: 576px) {
+    .container h1{
+        font-size: 19px;
+        font-weight: 700 ;
+        line-height: 34px;
+       }
+    .card__title{
+        padding: 3px;
+        font-size: 1rem;
+        font-weight: 640;
+        line-height: 1.6rem;
+    }
+
+    .card__description{
+        padding: 3px;
+        font-size: .7rem;
+        font-style: normal;
+        line-height: 1rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .energy__commitment-counter.border-resp{
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+        border-left: none;
+        border-right: none;
+    }
+    .energy__commitment-counter.border-resp h3{
+        margin-top: 2rem;
+    }
+    .energy__commitment-counter.border-resp p{
+        margin-bottom: 3rem;
+    }
+}

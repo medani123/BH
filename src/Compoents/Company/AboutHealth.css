@@ -1,0 +1,50 @@
+.sectionTwo-text1 {
+  margin-top: 8rem;
+}
+.sectionTwo-text1 h3 {
+  color: #013025;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sectionTwo-text1 p {
+  color: #949494;
+  font-size: 1.1rem;
+}
+
+.HomeSectionTwo1 img {
+  height: 39rem;
+}
+@media screen and (max-width: 576px) {
+  .HomeSectionTwo1 img {
+    width: 20rem;
+    height: 20rem;
+    padding: 10px;
+  }
+}
+.protect__button-btn {
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.variable-button {
+  position: relative;
+  background: white;
+  border: 1px solid #02a783;
+  padding: 1rem 2.5rem;
+  color: #02a783;
+  border-radius: 5rem;
+  transition: 0.4s;
+}
+.variable-button::before {
+  content: attr(data-text);
+}
+.variable-button:hover {
+  background: #02a783;
+  color: white;
+  padding: 1rem 5rem;
+  transition: 0.4s;
+}
+.variable-button:hover::before {
+  content: attr(data-texthover);
+}

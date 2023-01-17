@@ -1,0 +1,98 @@
+.maintab-container {
+  background-image: linear-gradient(white 50%, #27272c 50%);
+}
+.subtab {
+  background-color: #27272c;
+}
+.Home__Card a {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.714;
+  letter-spacing: 0;
+  color: #02a783 !important;
+}
+.Home__Card a span {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #949494;
+  letter-spacing: 0;
+}
+.text-gray {
+  color: #949494 !important;
+}
+.Home__What p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625;
+  color: #949494;
+  margin-top: 20px;
+  letter-spacing: 0;
+}
+.HomeMiniCard {
+  padding: 40px;
+}
+.home_mini {
+  cursor: pointer;
+  border: 1px solid rgb(192, 192, 192);
+}
+.home_mini a {
+  text-decoration: none;
+  color: #949494 !important;
+}
+.home_mini a:hover {
+  text-decoration: none !important;
+  color: #949494;
+}
+
+.MainTab {
+  background-color: #f8f8f8;
+  border: 1px solid #e2e2e2;
+  margin-top: 8rem !important;
+}
+.home_mini2 {
+  border-left: 5px solid #02a783;
+
+  color: black;
+}
+.home_mini2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800 !important;
+  font-size: 50px !important;
+}
+.home_mini2 a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 800 !important;
+  font-size: 50px !important;
+}
+.variable-button1 {
+  position: relative;
+  background-color: #27272c;
+  border: 1px solid #ffffff;
+  padding: 1rem 2.5rem !important;
+  color: #ffffff !important;
+  border-radius: 5rem;
+  transition: 0.6s;
+}
+.variable-button2 {
+  position: relative;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  padding: 0.5rem 1.1rem !important;
+  color: #ffffff !important;
+  border-radius: 5rem;
+  font-size: 12px !important ;
+
+  transition: 0.6s;
+}
+.variable-button2:hover {
+  background-color: #02a783 !important;
+}
+.navbar-nav {
+  background-color: rgb(255, 255, 255) !important;
+  margin-top: 12PX;
+}

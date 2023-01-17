@@ -1,0 +1,72 @@
+.ProductLeftSection {
+  height: 100vh;
+  background: #27272c;
+  width: 28%;
+}
+.Featture__mn_left {
+  margin-left: -32px !important;
+}
+.Product__middle_Section {
+  width: 36% !important;
+  border-right: 2px solid rgb(201, 200, 200) !important;
+  margin-top: 50px;
+}
+.ProductItems li {
+  list-style: none;
+  padding: 12px 0px;
+}
+.ProductItems li a {
+  text-decoration: none;
+  color: #949494;
+
+  font-size: 14px;
+}
+
+.ProductItems li a:focus {
+  text-decoration: none;
+  color: #02a783;
+  transition: color 0.2s ease-in-out;
+}
+.ProductItems li a:hover {
+  text-decoration: none;
+  color: #02a783;
+  transition: color 0.2s ease-in-out;
+}
+
+.Product__items button {
+  border: 0px;
+  padding: 30px 0px;
+  position: relative;
+  width: 100%;
+
+  background-color: transparent;
+}
+.Product__items button li a {
+  list-style: none;
+  color: #949494;
+  font-size: 1.1rem !important;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+  left: 110px;
+}
+.Product__items button li {
+  color: #949494;
+  list-style: none;
+  font-size: 1.1rem !important;
+}
+.Product__items button:focus {
+  background-color: #aaaaaa1c;
+}
+.Product__items button:focus li a {
+  color: #02a783;
+  transition: color 0.2s ease-in-out;
+}
+.Product__items button:focus li {
+  color: #02a783;
+  transition: color 0.2s ease-in-out;
+}
+
+.Product__middle_Section {
+  /* width: 40%; */
+}

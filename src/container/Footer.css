@@ -1,0 +1,104 @@
+.footer_img img {
+  width: 200px;
+}
+.arrow {
+  rotate: -45deg;
+  font-size: 16px !important;
+}
+ul {
+  padding-left: 0px;
+}
+.footer_ul li {
+  text-decoration: none;
+  list-style-type: none;
+  color: gray;
+}
+.footer_ul li:hover {
+  color: #02a783;
+}
+.footer_container {
+  background-color: #27272c;
+  color: white;
+  padding: 4rem 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer_icon {
+  font-size: 16px !important;
+  text-align: center;
+  color: gray;
+}
+.footer_icon:hover {
+  color: #02a783;
+}
+
+.footer_icon_border {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 5px;
+  margin: 3px;
+}
+.footer_icon_border:hover {
+  border: 1px solid #02a783;
+}
+
+@media screen and (max-width: 768px) {
+  .footer_row {
+    flex-direction: row-reverse;
+  }
+}
+.footer_copyright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.copy_right span {
+  padding: 0px 15px;
+}
+.footer_copyright a {
+  text-decoration: none;
+  color: #949494;
+}
+.copy_right a:hover {
+  color: #02a783;
+}
+@media screen and (max-width: 768px) {
+  .footer_copyright {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer_img {
+    text-align: center;
+  }
+  .footer_ul {
+    text-align: center;
+    margin-top: 15px;
+  }
+  .footer-social-media {
+    text-align: center;
+  }
+  .footer-divider {
+    width: 80%;
+  }
+  .footer-text {
+    text-align: center;
+  }
+}
+.BottomSeection {
+  background-image: url('https://www.bakerhughes.com/sites/bakerhughes/files/styles/energy_forward_list_view/public/2022-12/dsc_5108_1.webp?itok=0kilJ_4z');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.BottomSeection2 {
+  background-image: url('https://www.bakerhughes.com/sites/bakerhughes/files/styles/max_1300x1300/public/2021-11/success1.webp?itok=ZKpkFNjB');
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

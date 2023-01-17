@@ -1,0 +1,185 @@
+.hero-container {
+  background-image: url('https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_2_1_2x_2880x1426_/public/2019-10/hero_about2_0.jpg?h=4672d279&itok=pN3ByN1T');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.hero__text {
+  color: white;
+  margin-top: 11rem;
+}
+
+.about__head {
+  font-size: 4rem !important;
+  font-weight: 700;
+}
+.about__para {
+  font-size: 18px !important;
+  letter-spacing: 0.8px;
+  color: #f0eded;
+}
+
+.about__dash {
+  display: flex;
+}
+.about__dash-line {
+  border-bottom: 2px solid #02a783;
+  width: 30px;
+  margin-bottom: 9px !important;
+}
+.about__dash-line2 {
+  border-bottom: 3px solid #02a783;
+  width: 44px !important;
+  margin-bottom: 2px !important;
+}
+.about__button {
+  padding: 18px 20px !important;
+  border-radius: 50% !important;
+  margin-bottom: 5rem !important;
+}
+.about__button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.about__dast-text {
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.about__description-middle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.33;
+  color: #013025;
+  letter-spacing: 0;
+}
+
+.about__bg-img {
+  background-position: center;
+  width: 100%;
+
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: #0f0a27cc; /* fallback for old browsers */
+  background: linear-gradient(#0c081dcc, #0c081dcc),
+    url('https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_2_1_2x_2880x1426_/public/2019-10/world.jpg?h=4672d279&itok=N82w1aIy'); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#0c081dcc, #0c081dcc),
+    url('https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_2_1_2x_2880x1426_/public/2019-10/world.jpg?h=4672d279&itok=N82w1aIy'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about__global-desc {
+  text-align: start !important;
+}
+.about__global-desc h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0;
+}
+.about__global-desc p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.625;
+  letter-spacing: 0;
+}
+
+.about__global-achived {
+  border-left: 1px solid #dbd4d4;
+  height: 290px;
+  text-align: start;
+}
+.about-global-text h1 {
+  line-height: 1.07;
+  font-size: 3.5rem !important;
+  font-weight: 400;
+}
+.about-global-text h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.925rem;
+}
+.our__framework-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__organized-text h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.about__organized-text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #949494;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.border_top {
+  border-top: 1px solid black !important;
+}
+.margin__left-find {
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+.find__para {
+  font-size: 18px;
+  color: #949494;
+}
+.find__img img {
+  border-top-left-radius: 180px 130%;
+}
+
+@media screen and (max-width: 576px) {
+  .about__head {
+    font-size: 2rem !important;
+  }
+  .hero__text {
+    margin-top: 7rem;
+    margin-left: 15px;
+  }
+  .about__para {
+    font-size: 14px !important;
+  }
+  .hero-container {
+    height: 400px;
+  }
+  .about__description-middle {
+    font-size: 20px !important;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .about__all-middle {
+    margin-left: 18px !important;
+  }
+  .about__dash-line2 {
+    padding: 10px !important;
+    margin-left: 19px;
+  }
+  .about__global-desc {
+    padding: 19px !important;
+  }
+  .about__button {
+    margin-bottom: 0rem !important;
+  }
+  .HomeSectionTwo img {
+    height: 20rem !important;
+    margin-bottom: 0;
+  }
+  .sectionTwo-text1 {
+    margin-top: 0rem !important;
+    padding: 0 !important;
+  }
+  .margin__left-find {
+    margin-top: 10px !important;
+    margin-left: 10px !important;
+  }
+}

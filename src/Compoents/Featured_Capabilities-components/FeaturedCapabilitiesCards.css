@@ -1,0 +1,39 @@
+.EnergyTransitionMainCard-container:hover {
+  background-color: rgb(245, 245, 245);
+}
+.energy_card-data h4 {
+  font-size: 0.975rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  color: #013025;
+}
+
+.energy_card-data p {
+  margin-bottom: 3px;
+  font-size: 0.85rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  color: #949494;
+}
+.EnergyTransitionA {
+  text-decoration: none;
+}
+@media screen and (max-width: 992px) {
+  .DesktopHeader {
+    display: none !important;
+  }
+  .Featture__mn_left {
+    display: none !important;
+  }
+  .Featture__mn_left {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .MobileHeadera {
+    display: none;
+    font-size: 12px !important;
+    padding: 0px;
+  }
+}

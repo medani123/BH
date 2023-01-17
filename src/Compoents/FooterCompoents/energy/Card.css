@@ -1,0 +1,110 @@
+
+.enegry__main{
+    border-top: 1px solid whitesmoke;
+    padding: 0;
+}
+.energy__forward{
+    background-color: #02A783;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.energy__text{
+    font-size: 15px;
+    font-weight: 500;
+    color: #B2E2C8;
+}
+.case-text{
+    font-size: 15px;
+    font-weight: 500;
+    color: #B2E2C8;
+}
+.energy__btn{
+    background-color: #02A783;
+    border: 1px solid white;
+    color: white;
+    padding: 1px 35px;
+    height: 2.8rem;
+    border-radius: 30px;
+}
+.btn_icon{
+    font-size: 14px !important;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -10px;
+}
+.energy__btn:hover{
+    background-color: white;
+    color: #02A783 !important;
+}
+.btn_icon:hover{
+    color: #02A783 !important;
+}
+.energy__case{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.case__btn{
+    background-color: white;
+    color: #02A783 !important;
+    border: 1px solid #02A783;
+    padding: 1px 35px;
+    height: 2.8rem;
+    border-radius: 30px;
+}
+
+.case__btn:hover{
+    background-color: #02A783;
+    color: white !important;
+}
+.case_icon{
+    font-size: 14px !important;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -10px;
+}
+.case_icon:hover{
+    color: white !important;
+
+}
+.energy_span{
+   display: flex;
+   flex-direction: flex-start;
+}
+
+@media (min-width: 280px)
+{
+    h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row{
+        flex-direction: column-reverse;
+        /* width: 100%; */
+    }
+}
+@media screen and (max-width: 421px) {
+    .energy__text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 398px) {
+    .energy__text{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 387px) {
+    .energy__text{
+        font-size: 12px;
+    }
+}
