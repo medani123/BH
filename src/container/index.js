@@ -5,4 +5,6 @@ export { default as Home } from "./Home.jsx";
 export { default as AboutCompany } from "./AboutCompany";
 export { default as EnergyTransition } from "./EnergyTransition/EnergyTransition.jsx";
 export { default as HydrogenTechnologies } from "./HydrogenTechnologies/HydrogenTechnologies.jsx";
+export { default as ContactUs } from "./ContactUs/ContactUs.js";
+
 export { default as Footer } from "./Footer";

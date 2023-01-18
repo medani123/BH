@@ -243,7 +243,7 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
                   aria-controls="panel2a-content"
                   id="panel2a-header"
                 >
-                  <Typography>Baker Hughes</Typography>
+                  <Typography>ASPS</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>

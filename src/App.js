@@ -9,6 +9,7 @@ import {
   AboutCompany,
   Footer,
   HydrogenTechnologies,
+  ContactUs,
 } from "./container/index";
 import { CenterSection } from "./Compoents/index";
 function App() {
@@ -32,6 +33,7 @@ function App() {
             path="/HydrogenTechnologies"
             element={<HydrogenTechnologies />}
           />
+          <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
       </main>
       <Footer />

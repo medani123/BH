@@ -27,7 +27,7 @@ const Com = () => {
             >
               <li>
                 <Link to="#">
-                  Baker Hughes <KeyboardArrowRightIcon />
+                  ASPS <KeyboardArrowRightIcon />
                 </Link>
               </li>
             </button>
