@@ -51,112 +51,28 @@ const MainHeader = () => {
               <div className="container">
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 DesktopHeader">
-                    {/* <li class="nav-item  ms-5">
-                      <Link
-                        to={
-                          selectedElements.includes(1)
-                            ? "/FeaturedCapabilities"
-                            : "/"
-                        }
-                        className="  mt-1"
-                        id="button3"
-                        onClick={() => HandleClick(1)}
-                      >
-                        About Us
-                        <span>
-                          {selectedElements.includes(1) ? (
-                            <ExpandMoreIcon />
-                          ) : (
-                            <KeyboardArrowUpIcon />
-                          )}
-                        </span>
-                      </Link>
-                    </li> */}
                     <li class="nav-item  ms-5 ">
-                      <Link
-                        to={Path ? "/Company" : "/"}
-                        onClick={() => HandleClick(3)}
-                      >
-                        About Us
-                        <span>
-                          {selectedElements.includes(3) ? (
-                            <ExpandMoreIcon />
-                          ) : (
-                            <KeyboardArrowUpIcon />
-                          )}
-                        </span>
+                      <Link to={Path ? "/AboutCompany" : "/"}>About Us</Link>
+                    </li>
+
+                    <li class="nav-item  ms-5 ">
+                      <Link to={Path ? "/Cybersecurity" : "/"}>
+                        Cyber Security
                       </Link>
                     </li>
 
                     <li class="nav-item  ms-5 ">
-                      <Link
-                        to={Path ? "/Company" : "/"}
-                        onClick={() => HandleClick(3)}
-                      >
-                        Cybersecurity
-                        <span>
-                          {selectedElements.includes(3) ? (
-                            <ExpandMoreIcon />
-                          ) : (
-                            <KeyboardArrowUpIcon />
-                          )}
-                        </span>
-                      </Link>
+                      <Link to={Path ? "/Governance" : "/"}>Governance</Link>
                     </li>
 
                     <li class="nav-item  ms-5 ">
-                      <Link
-                        to={Path ? "/Company" : "/"}
-                        onClick={() => HandleClick(3)}
-                      >
-                        Governance
-                        <span>
-                          {selectedElements.includes(3) ? (
-                            <ExpandMoreIcon />
-                          ) : (
-                            <KeyboardArrowUpIcon />
-                          )}
-                        </span>
-                      </Link>
-                    </li>
-
-                    <li class="nav-item ms-5 ">
-                      <Link to="#">{/* <SearchIcon /> */}</Link>
-                    </li>
-
-                    <li class="nav-item  ms-5 ">
-                      <Link
-                        to={Path ? "/Company" : "/"}
-                        onClick={() => HandleClick(3)}
-                      >
+                      <Link to={Path ? "/Sustainability" : "/"}>
                         Sustainability
-                        <span>
-                          {selectedElements.includes(3) ? (
-                            <ExpandMoreIcon />
-                          ) : (
-                            <KeyboardArrowUpIcon />
-                          )}
-                        </span>
-                      </Link>
-                    </li>
-                    <li class="nav-item  ms-5 ">
-                      <Link
-                        to={Path ? "/Company" : "/"}
-                        onClick={() => HandleClick(3)}
-                      >
-                        Our Business
-                        <span>
-                          {selectedElements.includes(3) ? (
-                            <ExpandMoreIcon />
-                          ) : (
-                            <KeyboardArrowUpIcon />
-                          )}
-                        </span>
                       </Link>
                     </li>
 
-                    <li class="nav-item ms-5 ">
-                      <Link to="#">{/* <SearchIcon /> */}</Link>
+                    <li class="nav-item  ms-5 ">
+                      <Link to={Path ? "/Safety" : "/"}>Safety & Security</Link>
                     </li>
 
                     {/* <li class="nav-item ms-5 ">

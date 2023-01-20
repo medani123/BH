@@ -14,14 +14,16 @@ const ResourceCarousel = () => {
     autoplaySpeed: 3000,
     slidesToShow: 3,
 
-    responsive: [{
-      breakpoint: 822,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        initialSlide: 2
-      }
-    }]
+    responsive: [
+      {
+        breakpoint: 822,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+    ],
   };
   const sliderRef = useRef(null);
   useEffect(() => {
@@ -41,7 +43,7 @@ const ResourceCarousel = () => {
       >
         <div>
           <div className="resource__border ms-lg-4"></div>
-          <h2 style={{ marginLeft: '1.5rem' }}>Resources</h2>
+          <h2 style={{ marginLeft: "1.5rem" }}>Resources</h2>
         </div>
         <div style={{ display: "flex" }}>
           <ButtonBase
@@ -59,7 +61,7 @@ const ResourceCarousel = () => {
             className="buttons"
             onClick={() => sliderRef.current.slickPrev()}
           >
-            <ArrowBackIos className="button__icon"/>
+            <ArrowBackIos className="button__icon" />
           </ButtonBase>
           <ButtonBase
             style={{
@@ -75,12 +77,13 @@ const ResourceCarousel = () => {
             className="buttons"
             onClick={() => sliderRef.current.slickNext()}
           >
-            <ArrowForwardIos className="button__icon"/>
+            <ArrowForwardIos className="button__icon" />
           </ButtonBase>
         </div>
       </div>
       <div style={{ margin: 30 }}>
-        <Slider {...settings_3}
+        <Slider
+          {...settings_3}
           dots
           dotsClass="slick-dots line-indicator"
           ref={sliderRef}
@@ -99,37 +102,35 @@ const ResourceCarousel = () => {
             </div>
           )}
         >
-          <CarouselCards 
-            img='https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-12/Nature%20Conservancy%20Indonesia.jpg?itok=Tnwqc9XV'
-            title='PRESS RELEASE'
-            date='NOVEMBER 1, 2020'
-            description='The Baker Hughes Foundation Contributes $250,000 to The Nature Conservancy for Nature-Based Climate Solutions'
-            
+          <CarouselCards
+            img="https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-12/Nature%20Conservancy%20Indonesia.jpg?itok=Tnwqc9XV"
+            title="PRESS RELEASE"
+            date="NOVEMBER 1, 2020"
+            description="The Baker Hughes Foundation Contributes $250,000 to The Nature Conservancy for Nature-Based Climate Solutions"
           />
-          <CarouselCards 
-            img='https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-12/3C.png?itok=KkBu80pL'
-            title='PRESS RELEASE'
-            date='NOVEMBER 2, 2020'
-            description='Würth and Baker Hughes Announce Joint Service Offering to Expand Additive Manufacturing Solutions for Customers Globally'
+          <CarouselCards
+            img="https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-12/3C.png?itok=KkBu80pL"
+            title="PRESS RELEASE"
+            date="NOVEMBER 2, 2020"
+            description="Würth and Baker Hughes Announce Joint Service Offering to Expand Additive Manufacturing Solutions for Customers Globally"
           />
-          <CarouselCards 
-            img='https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-07/Additive_0.webp?itok=O_1pGJVz'
-            title='PRESS RELEASE'
-            date='NOVEMBER 3, 2020'
-            description='Würth and Baker Hughes Announce Joint Service Offering to Expand Additive Manufacturing Solutions for Customers Globally'
+          <CarouselCards
+            img="https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-07/Additive_0.webp?itok=O_1pGJVz"
+            title="PRESS RELEASE"
+            date="NOVEMBER 3, 2020"
+            description="Würth and Baker Hughes Announce Joint Service Offering to Expand Additive Manufacturing Solutions for Customers Globally"
           />
-          <CarouselCards 
-            img='https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-07/La%20turbina%20NovaLT12%20di%20Baker%20Hughes%20nello%20stabilimento%20di%20Firenze.webp?itok=4hqGs50y'
-            title='PRESS RELEASE'
-            date='NOVEMBER 4, 2020'
-            description='Würth and Baker Hughes Announce Joint Service Offering to Expand Additive Manufacturing Solutions for Customers Globally'
+          <CarouselCards
+            img="https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-07/La%20turbina%20NovaLT12%20di%20Baker%20Hughes%20nello%20stabilimento%20di%20Firenze.webp?itok=4hqGs50y"
+            title="PRESS RELEASE"
+            date="NOVEMBER 4, 2020"
+            description="Würth and Baker Hughes Announce Joint Service Offering to Expand Additive Manufacturing Solutions for Customers Globally"
           />
-          <CarouselCards 
-            img='https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-12/Nature%20Conservancy%20Indonesia.jpg?itok=Tnwqc9XV'
-            title='PRESS RELEASE'
-            date='NOVEMBER 5, 2020'
-            description='The Baker Hughes Foundation Contributes $250,000 to The Nature Conservancy for Nature-Based Climate Solutions'
-            
+          <CarouselCards
+            img="https://www.bakerhughes.com/sites/bakerhughes/files/styles/product_services_thumbnail/public/2020-12/Nature%20Conservancy%20Indonesia.jpg?itok=Tnwqc9XV"
+            title="PRESS RELEASE"
+            date="NOVEMBER 5, 2020"
+            description="The Baker Hughes Foundation Contributes $250,000 to The Nature Conservancy for Nature-Based Climate Solutions"
           />
         </Slider>
       </div>

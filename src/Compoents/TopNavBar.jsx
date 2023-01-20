@@ -17,12 +17,14 @@ const TopNavBar = () => {
           </div> */}
 
           <div className="  Top__Items">
-            <a href="">
-              careers
-              <span>
-                <CallMadeIcon />
-              </span>
-            </a>
+            <Link to="/Careers">
+              <a href="">
+                Careers
+                <span>
+                  <CallMadeIcon />
+                </span>
+              </a>
+            </Link>
           </div>
           <Link to="/ContactUs">
             <div className="  Top__Items ">

@@ -9,5 +9,7 @@ export { default as ContactUs } from "./ContactUs/ContactUs.js";
 export { default as CyberSecurity } from "../container/CyberSecurity/CyberSecurity";
 export { default as Governance } from "../container/Governance/Governance";
 export { default as Sustainability } from "../container/Sustainability/Sustainability";
+export { default as Careers } from "../container/Careers/Careers";
+export { default as Safety } from "../container/Safety/Safety";
 
 export { default as Footer } from "./Footer";

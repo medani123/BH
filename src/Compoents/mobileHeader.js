@@ -11,70 +11,17 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
   return (
     <div>
       <div>
-        <Accordion className={Data2 === "button1" ? "hide" : "show"}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
-          >
+        <Accordion>
+          <AccordionSummary aria-controls="panel1a-content" id="panel1a-header">
             <Typography>About Us</Typography>
           </AccordionSummary>
           <AccordionDetails>
-            <Typography>
-              <ul style={{ listStyleType: "none" }}>
-                <li
-                  className="my-3"
-                  onClick={() => HandleClick1("button1")}
-                  id="buttton1"
-                >
-                  <Link
-                    className="text-dark"
-                    to="/SupplyChain"
-                    style={{ textDecoration: "none" }}
-                    href="#"
-                  >
-                    Energy Transition
-                  </Link>
-                </li>
-                <li className="my-3" onClick={() => HandleClick1("button1")}>
-                  <Link
-                    className="text-dark"
-                    to="/HydrogenTechnologies"
-                    style={{ textDecoration: "none" }}
-                    href="#"
-                  >
-                    Hydrogen Technologies
-                  </Link>
-                </li>
-                <li className="my-3">
-                  <Link
-                    className="text-dark"
-                    style={{ textDecoration: "none" }}
-                    href="#"
-                  >
-                    Geothermal Solutions
-                  </Link>
-                </li>
-                <li className="my-3" onClick={() => HandleClick1("button1")}>
-                  <Link
-                    className="text-dark"
-                    style={{ textDecoration: "none" }}
-                    href="#"
-                  >
-                    Carbon Caliture, Utilization, and Storage (CCUS)
-                  </Link>
-                </li>
-              </ul>
-            </Typography>
+            <Typography></Typography>
           </AccordionDetails>
         </Accordion>
         <Accordion className={Data2 === "button1" ? "hide" : "show"}>
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel2a-content"
-            id="panel2a-header"
-          >
-            <Typography>Cybersecurity</Typography>
+          <AccordionSummary aria-controls="panel2a-content" id="panel2a-header">
+            <Typography>Products & Services</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -233,7 +180,7 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography>Governance</Typography>
+            <Typography>Company</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -243,7 +190,7 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
                   aria-controls="panel2a-content"
                   id="panel2a-header"
                 >
-                  <Typography>ASPS</Typography>
+                  <Typography>Baker Hughes</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                   <Typography>

@@ -15,6 +15,8 @@ import {
 import { CenterSection } from "./Compoents/index";
 import CyberSecurity from "./container/CyberSecurity/CyberSecurity";
 import Sustainability from "./container/Sustainability/Sustainability";
+import Careers from "./container/Careers/Careers";
+import Safety from "./container/Safety/Safety";
 function App() {
   return (
     <div className="App">
@@ -35,7 +37,8 @@ function App() {
           <Route path="/CyberSecurity" element={<CyberSecurity />} />
           <Route path="/Governance" element={<Governance />} />
           <Route path="/Sustainability" element={<Sustainability />} />
-
+          <Route path="/Careers" element={<Careers />} />
+          <Route path="/Safety" element={<Safety />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
       </main>
