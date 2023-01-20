@@ -82,7 +82,7 @@ const MainHeader = () => {
                     </li> */}
                   </ul>
                   <ul className="MobileHeadera navbar-nav ms-auto mb-2 mb-lg-0">
-                    <MobileHeader HandleClick1={HandleClick1} Data2={Data2} />
+                    <MobileHeader HandleClick1={HandleClick1} />
                   </ul>
                 </div>
               </div>
