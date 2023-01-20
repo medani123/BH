@@ -12,6 +12,7 @@ import {
   ContactUs,
 } from "./container/index";
 import { CenterSection } from "./Compoents/index";
+import CyberSecurity from "./container/CyberSecurity/CyberSecurity";
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,7 @@ function App() {
           <Route path="/CenterSection" element={<CenterSection />} />
           <Route path="/AboutCompany" element={<AboutCompany />} />
           <Route path="/SupplyChain" element={<EnergyTransition />} />
+          <Route path="/CyberSecurity" element={<CyberSecurity />} />
           <Route
             path="/HydrogenTechnologies"
             element={<HydrogenTechnologies />}
