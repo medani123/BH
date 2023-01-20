@@ -8,5 +8,6 @@ export { default as HydrogenTechnologies } from "./HydrogenTechnologies/Hydrogen
 export { default as ContactUs } from "./ContactUs/ContactUs.js";
 export { default as CyberSecurity } from "../container/CyberSecurity/CyberSecurity";
 export { default as Governance } from "../container/Governance/Governance";
+export { default as Sustainability } from "../container/Sustainability/Sustainability";
 
 export { default as Footer } from "./Footer";
