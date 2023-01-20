@@ -10,6 +10,7 @@ import {
   Footer,
   HydrogenTechnologies,
   ContactUs,
+  Governance,
 } from "./container/index";
 import { CenterSection } from "./Compoents/index";
 import CyberSecurity from "./container/CyberSecurity/CyberSecurity";
@@ -31,10 +32,8 @@ function App() {
           <Route path="/AboutCompany" element={<AboutCompany />} />
           <Route path="/SupplyChain" element={<EnergyTransition />} />
           <Route path="/CyberSecurity" element={<CyberSecurity />} />
-          <Route
-            path="/HydrogenTechnologies"
-            element={<HydrogenTechnologies />}
-          />
+          <Route path="/Governance" element={<Governance />} />
+
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
       </main>

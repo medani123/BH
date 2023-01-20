@@ -23,7 +23,8 @@ const AboutCompany = () => {
                     We are the leading energy technology company.
                     <br />
                     We design, manufacture and service transformative
-                    technologies to help take energy forward.
+                    technologies <br />
+                    to help take energy forward.
                   </p>
                 </div>
               </div>
@@ -42,12 +43,12 @@ const AboutCompany = () => {
           </div>
 
           <div className="col-md-8">
-            <h3 className="about__description-middle mb-4 ">
+            <h5 className="about__description-middle mb-4 ">
               Arabian SPSC has the industry-leading technologies, solutions, and
               support necessary for a wide range of upstream technologies,
               downstream services and water-based applications, including
               dewatering, industrial systems.
-            </h3>
+            </h5>
           </div>
 
           <div className="button d-flex mb-5">
@@ -307,7 +308,6 @@ const AboutCompany = () => {
                   AND DRIVE the business towards a secure future.
                 </li>
               </ul>
-              <img src={image01} alt="culture" style={{ marginInline: 320 }} />
 
               <h5>We deliver results responsibly</h5>
               <p>
@@ -370,8 +370,8 @@ const AboutCompany = () => {
 
       <div className="container my-5">
         <AboutHealth />
-        <AboutStories />
-        <AboutBrands />
+        {/* <AboutStories />
+        <AboutBrands /> */}
       </div>
 
       <div className="container-fluid border_top">
@@ -385,13 +385,8 @@ const AboutCompany = () => {
                 We have a team of experts ready to answer your <br /> questions
                 and help you get what you need.{" "}
               </p>
-              <div className="protect__button my-4">
-                <button
-                  class="m-auto variable-button h6"
-                  data-text="LEARN MORE"
-                  data-texthover=">"
-                ></button>
-              </div>
+              <strong>Email:</strong> info@arabiansps.com
+              <div className="protect__button my-4"></div>
             </div>
           </div>
           <div className="col-md-6">

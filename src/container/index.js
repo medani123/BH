@@ -7,5 +7,6 @@ export { default as EnergyTransition } from "./EnergyTransition/EnergyTransition
 export { default as HydrogenTechnologies } from "./HydrogenTechnologies/HydrogenTechnologies.jsx";
 export { default as ContactUs } from "./ContactUs/ContactUs.js";
 export { default as CyberSecurity } from "../container/CyberSecurity/CyberSecurity";
+export { default as Governance } from "../container/Governance/Governance";
 
 export { default as Footer } from "./Footer";

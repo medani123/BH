@@ -130,12 +130,9 @@ function EnergyTransition() {
             <br />
             <br /> Providing secure products, solutions, and services for our
             customers not only requires secure development, engineering and
-            operation from our side. Just as important is ensuring the security
-            of the associated Arabian Summit Petroleum Services Company
-            infrastructure, premises and people. We ensure that all relevant
-            components and processes are seamlessly integrated into a
-            well-fortified overall system to ensure fully protected operation.{" "}
-            <br />
+            operation from our side. We ensure that all relevant components and
+            processes are seamlessly integrated into a well-fortified overall
+            system to ensure fully protected operation. <br />
             <br /> Our Cybersecurity Risk Management Framework is based on ISO
             27005 and aligned with industry best practices. By constantly
             evolving our tools, methods, and processes, we support the
