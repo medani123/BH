@@ -17,7 +17,7 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
             aria-controls="panel1a-content"
             id="panel1a-header"
           >
-            <Typography>Features Capabilities</Typography>
+            <Typography>About Us</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -74,7 +74,7 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography>Products & Services</Typography>
+            <Typography>Cybersecurity</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
@@ -233,7 +233,7 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
             aria-controls="panel2a-content"
             id="panel2a-header"
           >
-            <Typography>Company</Typography>
+            <Typography>Governance</Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>

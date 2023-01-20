@@ -27,7 +27,7 @@ const Com = () => {
             >
               <li>
                 <Link to="#">
-                  ASPS <KeyboardArrowRightIcon />
+                  Overview <KeyboardArrowRightIcon />
                 </Link>
               </li>
             </button>
@@ -38,8 +38,7 @@ const Com = () => {
             >
               <li>
                 <Link to="#" className="text-start">
-                  Corporate &<br />
-                  Responsibility
+                  Our Strategy
                   <KeyboardArrowRightIcon />
                 </Link>
               </li>
@@ -51,14 +50,14 @@ const Com = () => {
             >
               <li>
                 <Link>
-                  News & Knowledge <KeyboardArrowRightIcon />
+                  Core Purpose <KeyboardArrowRightIcon />
                 </Link>
               </li>
             </button>
             <button className="text-start">
               <li>
                 <Link to="#">
-                  Resources
+                  Supply Chain Management
                   <KeyboardArrowRightIcon />
                 </Link>
               </li>

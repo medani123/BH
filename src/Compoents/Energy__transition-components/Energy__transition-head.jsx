@@ -1,25 +1,24 @@
-import React from 'react'
-import './energy__commitment-head.css'
+import React from "react";
+import "./energy__commitment-head.css";
 
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
-import {video} from '../../constant'
+import { video } from "../../constant";
 
-import HeroSecComp from "./../Hero__Sec-component"
-
+import HeroSecComp from "./../Hero__Sec-component";
 
 const EnergyTransitionHead = (props) => {
   return (
-    <div className='energy_head'>
+    <div className="energy_head">
       <HeroSecComp
-          video={video}
-          title="Energy transition"
-          desc="Our energy technology helps industry advance on the path to net-zero and a sustainable energy future."
-          linkIcon={<ArrowDownwardIcon />}
-          link="Explore"
+        video={video}
+        title="Suuply Chain"
+        desc="Delivering value along the supply chain to power progress for the business."
+        //linkIcon={<ArrowDownwardIcon />}
+        //link="Explore"
       />
     </div>
-  )
-}
+  );
+};
 
-export default EnergyTransitionHead
+export default EnergyTransitionHead;

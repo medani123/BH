@@ -7,49 +7,58 @@ const ChallengeCards = () => {
       {" "}
       <div className="container">
         <div className="our__framework-all ">
-          <p>THE CHALLENGE</p>
+          <h1>Collaborating with the Clients </h1>
         </div>
-        <h1 className="text-center mb-5 ">
-          Our view on how the industry <br /> advances towards net-zero
-        </h1>
+        <h2 className="text-center mb-5 ">
+          Our partners are among the best in the marketplace
+          <br /> and create value for themselves, for us, and for our customers.
+        </h2>
         <div className="row">
           <div className="col-md-4">
             <Card
               img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/small_3_2_768x512_/public/2020-11/3-column%20image%20card%201.jpg?h=2ce5e5b3&itok=R2mDEkJH"
-              title={
-                <span>
-                  Without major <br /> acceleration, the industry <br /> will
-                  not meet net-zero <br /> targets
-                </span>
-              }
-              description="While technologies in use today can deliver a large amount of emission reductions, they are insufficient on their own to meet the Paris targets.  We need a dual strategy to implement efficiency measures today and invest in new energy solutions for the future."
+              title={<span>Environment & Sustainability</span>}
+              description="Care for people always implies caring for the environment. Our outlook and strategy are dominated by the need to implement and use sustainable solutions, in line with the present concerns for preserving the environment."
             />
           </div>
 
           <div className="col-md-4">
             <Card
               img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-reliance%20on%20hydrocarbons-will-not-disappear.webp?h=64ce14d1&itok=kyFeHDO7"
-              title={
-                <span>
-                  Reliance on hydrocarbons <br /> will not disappear, so <br />{" "}
-                  efficiency matters
-                </span>
-              }
-              description="For at least the next 30 years, oil and gas will continue to play an important part of meeting global energy demand – even in the most aggressive of energy transition scenarios. Efficiency solutions are critical to reducing scope 1 and 2 emissions."
+              title={<span>In the Community</span>}
+              description="We believe as much in doing good as we do in doing well. (CSR) practices bring innovation, enhanced brand value and improved relationships with our stakeholders and the communities we work in."
             />
           </div>
 
           <div className="col-md-4">
             <Card
               img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
-              title={
-                <span>
-                  There’s no path to net-zero
-                  <br /> without partnership and
-                  <br /> collaboration
-                </span>
-              }
-              description="Our business was built on partnership and service. Today, we know this matters more than ever.  We believe it will take energy producers, technology and service providers, energy buyers, policymakers, and the community at large working closely together to achieve our collective ambitions."
+              title={<span>Education</span>}
+              description="ASPS invests in education and takes on the task to spread and diversify the existing oil and gas industry knowledge. The sector we represent is in constant need of well prepared specialists to suit our wide range of integrated businesses."
+            />
+          </div>
+
+          <div className="col-md-4">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+              title={<span>Safety</span>}
+              description="Safety is a primary concern and consideration in all activities conducted at ASPS. We discover, extract, handle, refine and distribute hydrocarbons and their derivatives in ways that minimise the danger to our staff, our collaborators and clients."
+            />
+          </div>
+
+          <div className="col-md-4">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+              title={<span>Stakeholders</span>}
+              description="ASPS aims to maintain a strong and transparent bond with our stakeholders, which promotes constructive and sustainable development. We will always promote respect, equality, and diversity among our stakeholders by proliferating a non-discriminatory relationship and professional climate."
+            />
+          </div>
+
+          <div className="col-md-4">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+              title={<span>Ethics</span>}
+              description="ASPS is firmly committed to not only following but promoting fair, ethical, and socially responsible business practices in our offices, sites, and partner facilities. We accept no less than industry standard and best practices in all of our operations and services."
             />
           </div>
         </div>

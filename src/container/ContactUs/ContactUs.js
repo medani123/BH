@@ -20,7 +20,7 @@ function ContactUs() {
               </h6>
               <br />
               <h6>
-                <strong>Phone:</strong> +966 1233456
+                <strong>Phone:</strong> +966 136672672
               </h6>
               <br />
 
@@ -32,8 +32,7 @@ function ContactUs() {
           <div className="col-md-4">
             <div className="img-fluid mt-2   ">
               <iframe
-                title="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7153.786413764406!2d50.177105936300165!3d26.297561822366962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e7822fe8ae0f%3A0xd481df86f37e667c!2sTim%20Hortons!5e0!3m2!1sen!2sus!4v1674002938007!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d447.10066836582314!2d50.1815215441866!3d26.30040957679441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1674034517801!5m2!1sen!2sus"
                 width="600"
                 height="450"
                 style={{ border: 0 }}
