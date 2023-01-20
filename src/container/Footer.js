@@ -10,10 +10,7 @@ import { Energycase } from "../Compoents";
 function Footer() {
   return (
     <div>
-      <div className="mt-5 ">
-        {" "}
-        <Energycase />
-      </div>
+      <div className="mt-5 "> {/* <Energycase /> */}</div>
       <div className="footer_container">
         <div className="container">
           <div className="row footer_row">

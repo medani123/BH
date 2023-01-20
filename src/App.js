@@ -28,7 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/CenterSection" element={<CenterSection />} />
           <Route path="/AboutCompany" element={<AboutCompany />} />
-          <Route path="/EnergyTransition" element={<EnergyTransition />} />
+          <Route path="/SupplyChain" element={<EnergyTransition />} />
           <Route
             path="/HydrogenTechnologies"
             element={<HydrogenTechnologies />}

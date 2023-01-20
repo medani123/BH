@@ -33,14 +33,12 @@ function EnergyTransition() {
       <div className="ChallengesA">
         <FrameworkCards />
       </div>
-      <div className="Energy__Expertise ">
-        <ExpertiseCards />
-      </div>
+      <div className="Energy__Expertise ">{/* <ExpertiseCards /> */}</div>
       <div className="Energy__Feature-carousel pt-5">
-        <FeatureCarousel />
+        {/* <FeatureCarousel /> */}
       </div>
       <div className="Energy__Resource-carousel pt-5">
-        <ResourceCarousel />
+        {/* <ResourceCarousel /> */}
       </div>
     </>
   );

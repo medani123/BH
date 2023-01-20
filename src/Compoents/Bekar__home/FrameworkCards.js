@@ -1,55 +1,155 @@
-import React from 'react'
+import React from "react";
 
-
-import Card from "./Card"
-
-
+import Card from "./Card";
 
 const FrameworkCards = () => {
   return (
     <>
-
-
-    <div className="container my-5">
-    <div className="our__framework-all ">
-    <p>OUR FRAMEWORK</p>
-    </div>
-    <h1 className='text-center mb-5 '>We take a dual approach to a sustainable <br /> energy future</h1>
-      <div className="row">
-        <div className="col-md-6">
-        <Card
-        img='	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj'
-        title={<span>Solve for the largest sources of <br /> scope 1 & 2 emissions in energy<br /> operations today</span>}
-        description={<span> By deploying the most efficient and least emissive technologies, we can make progress on the path to net-zero today:
-
-          <li className='my-3'>Efficient power and compression</li>
-          <li  className='my-3'>Efficient oilfield</li>
-          <li  className='my-3' >Emissions management solutions</li>
-          <li>Intelligent asset management and optimization</li>
-          </span> }
-    />
+      <div className="container my-5">
+        <div className="our__framework-all ">
+          <h1>Sustainability in the Supply Chain</h1>
         </div>
+        <h2 className="text-center mb-5 ">
+          Integrity is the foundation of responsible and entrepreneurial
+          behavior. It forms the heart and the basis of sustainable work.
+        </h2>
+        <div className="row">
+          <div className="col-md-6">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj"
+              title={<span>Seize opportunities, minimize risks.</span>}
+              description={
+                <span>
+                  Sustainability is our guiding principle, supporting us in our
+                  day-to-day work and ensuring our long-term growth. Both
+                  integrity and sustainability are closely linked to our four
+                  company values: caring, agile, respectful, and accountable. In
+                  this way, we aim to live and breathe our socially responsible
+                  company culture – for the good of society
+                </span>
+              }
+            />
+          </div>
 
-        <div className="col-md-6">
-        <Card
-        img='	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq'
-        title={<span>And invest in sustainable energy<br /> technology for tomorrow</span>}
-        description={<span> By accelerating the adoption and deployment of new fuel sources and emission solutions, we can decarbonize energy for tomorrow:
-
-          <li className='my-2'>Hydrogen</li>
-          <li className='my-2'>Carbon capture, use, and storage</li>
-          <li  className='my-2' >Emissions management solutions</li>
-          <li  className='my-2'>Geothermal</li>
-          <li  className='my-2'>Energy storage</li>
-          <li>Net-zero LNG</li>
-          </span> }
-
-    />
+          <div className="col-md-6">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq"
+              title={<span>Sustainability in the Supply Chain.</span>}
+              description={
+                <span>
+                  “Sustainability in the Supply Chain” is based on a holistic
+                  approach that comprises the steps “Prevent – Detect – Respond”
+                  and concentrates on minimizing risks. It is also reflected in
+                  our Business Conduct Guidelines, which are binding for all
+                  employees.
+                </span>
+              }
+            />
+          </div>
         </div>
       </div>
-    </div>
-    </>
-  )
-}
 
-export default FrameworkCards
+      <div className="container my-5">
+        <div className="our__framework-all "></div>
+        <div className="row">
+          <div className="col-md-6">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj"
+              title={
+                <span>
+                  Principles of the Code of Conduct for ASPS Suppliers and
+                  Third-Party Intermediaries.
+                </span>
+              }
+              description={
+                <span>
+                  The Code of Conduct defines ASPS sustainability standards and
+                  principles for our partners, who are obliged to comply with
+                  its provisions: Legal compliance Prohibition of corruption and
+                  bribery Fair competition, anti-trust laws and intellectual
+                  property rights Conflicts of interest Respect for the basic
+                  human rights of employees Prohibition of child labor Health
+                  and safety of employees Environmental protection Transparency
+                  in the supply chain Responsible Minerals Sourcing.
+                </span>
+              }
+            />
+          </div>
+
+          <div className="col-md-6">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq"
+              title={<span>Risk Awareness in our Supply Chain.</span>}
+              description={
+                <span>
+                  ASPS has implemented a system of interconnected processes and
+                  tools to ensure full transparency and awareness for our spend,
+                  within our supplier base and for our supply chain risks and
+                  opportunities. Risk awareness within ASPS Supply Chain
+                  Management follows three steps: Definition of sustainability
+                  risks and categories, Identification of the relevant
+                  suppliers, Development and implementation of necessary
+                  procurement processes to cover these risks. Risk categories
+                  can include particular suppliers: Based in higher-risk
+                  countries, Providing products subject to “Responsible Minerals
+                  Sourcing (RMS)”, Relevant for CO2 reduction engagement.
+                </span>
+              }
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className="container my-5">
+        <div className="our__framework-all "></div>
+        <div className="row">
+          <div className="col-md-6">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj"
+              title={<span>Risk Exposure in our Supply Chain </span>}
+              description={
+                <span>
+                  We have established risk analysis procedures for each of our
+                  defined risk groups to systematically identify potential
+                  hazards in our supply chain. By using these risk
+                  identification processes, we identify the specific suppliers
+                  which we want to detect by one of our detection modules.
+                  Detection Modules - Monitoring adherence to the principles of
+                  the Code of Conduct, and consequences of non-adherence.{" "}
+                </span>
+              }
+            />
+          </div>
+
+          <div className="col-md-6">
+            <Card
+              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq"
+              title={
+                <span>
+                  Supplier communications and extending our values further into
+                  supply chains.{" "}
+                </span>
+              }
+              description={
+                <span>
+                  We firmly believe that our sustainability principles are at
+                  their most effective when they are applied voluntarily on the
+                  basis of personal conviction. The key elements here are
+                  broadening our suppliers’ capability and intensifying the
+                  transfer of knowledge about sustainability. We support our
+                  suppliers through our “Sustainability in the Supply Chain” and
+                  “Code of Conduct” brochures, and we explicitly encourage them
+                  to extend these values and sustainability requirements further
+                  into their own supply chain in order to create a network of
+                  interactions and business relations that are built on trust.
+                </span>
+              }
+            />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default FrameworkCards;

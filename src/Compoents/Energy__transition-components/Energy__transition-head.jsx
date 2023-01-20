@@ -12,7 +12,7 @@ const EnergyTransitionHead = (props) => {
     <div className="energy_head">
       <HeroSecComp
         video={video}
-        title="Suuply Chain"
+        title="Supply Chain"
         desc="Delivering value along the supply chain to power progress for the business."
         //linkIcon={<ArrowDownwardIcon />}
         //link="Explore"

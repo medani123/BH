@@ -29,7 +29,7 @@ const MobileHeader = ({ HandleClick1, Data2 }) => {
                 >
                   <Link
                     className="text-dark"
-                    to="/EnergyTransition"
+                    to="/SupplyChain"
                     style={{ textDecoration: "none" }}
                     href="#"
                   >

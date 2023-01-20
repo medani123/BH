@@ -10,7 +10,7 @@ const FeaturedCapabilitiesCards = () => {
         <div className="DesktopHeader">
           <div className="row">
             <div className="col-md-4 ">
-              <Link to="/EnergyTransition" className="EnergyTransitionA">
+              <Link to="/SupplyChain" className="EnergyTransitionA">
                 <FeaturedCapabilitiesCard
                   icon={
                     <svg width="40" height="40" viewBox="0 0 30 30">
