@@ -1,25 +1,20 @@
 import React from "react";
 import "./Careers.css";
+import careers from "../../Images/career.jpeg";
+import HeroSecComp from "../../Compoents/Hero__Sec-component";
+import { video } from "../../constant";
 
 const AboutCompany = () => {
   return (
     <>
-      <div class="hero-container">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="hero ms-lg-5 ps-lg-2">
-                <div className="hero__text ps-lg-1">
-                  <h1 className="mb-5 about__head">Careers</h1>
-                  <p className="about__para">
-                    A Progressive Energy and Solutions Partner <br />
-                    Enriching Lives for a Sustainable Future.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="energy_head">
+        <HeroSecComp
+          video={video}
+          title="Careers"
+          desc="Bring your passion to Life"
+          //linkIcon={<ArrowDownwardIcon />}
+          //link="Explore"
+        />
       </div>
 
       <div className="container my-5">
