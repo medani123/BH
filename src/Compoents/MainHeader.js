@@ -36,7 +36,9 @@ const MainHeader = () => {
                   <img src={logo} alt="Brand logo" className="img-fluid " />
                 </div>
               </Link>
+
               <MobileHeader />
+
               <div className="container">
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 DesktopHeader">

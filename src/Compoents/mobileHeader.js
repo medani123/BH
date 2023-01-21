@@ -3,7 +3,9 @@ import IconButton from "@mui/material/IconButton";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
+import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
+import "./mobileHeader.css";
 
 const options = [
   "About Company",
@@ -13,7 +15,7 @@ const options = [
   "Sustainability",
 ];
 
-const ITEM_HEIGHT = 48;
+const ITEM_HEIGHT = 60;
 
 export default function LongMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -28,6 +30,7 @@ export default function LongMenu() {
   return (
     <div>
       <IconButton
+        className="MenuItem"
         aria-label="more"
         id="long-button"
         aria-controls={open ? "long-menu" : undefined}
@@ -35,7 +38,17 @@ export default function LongMenu() {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        <MoreVertIcon />
+        <MenuIcon
+          sx={{
+            display: {
+              xs: "block",
+              lg: "none",
+              xl: "none",
+              sm: "block",
+              md: "none",
+            },
+          }}
+        />
       </IconButton>
       <Menu
         id="long-menu"
@@ -54,7 +67,7 @@ export default function LongMenu() {
       >
         {options.map((option) => (
           <Link to={option.replace(/ /g, "")}>
-            <MenuItem key={option} onClick={handleClose}>
+            <MenuItem selected key={option} onClick={handleClose}>
               {option}
             </MenuItem>
           </Link>
