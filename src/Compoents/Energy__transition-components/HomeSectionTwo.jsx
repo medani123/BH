@@ -1,7 +1,6 @@
 import React from "react";
 import "./energy__commitment-head.css";
 import { HomeSectionTwo } from "../../constant";
-import GetAppIcon from "@material-ui/icons/GetApp";
 
 function SectionTwo() {
   return (

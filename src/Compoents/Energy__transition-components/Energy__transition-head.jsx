@@ -1,8 +1,6 @@
 import React from "react";
 import "./energy__commitment-head.css";
 
-import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
-
 import { video } from "../../constant";
 
 import HeroSecComp from "./../Hero__Sec-component";

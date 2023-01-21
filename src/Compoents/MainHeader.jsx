@@ -36,43 +36,36 @@ const MainHeader = () => {
                   <img src={logo} alt="Brand logo" className="img-fluid " />
                 </div>
               </Link>
-              <button
-                onClick={() => HandleClick1("button2")}
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <MobileHeader />
               <div className="container">
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 DesktopHeader">
-                    <li class="nav-item  ms-5 ">
+                    <li class="nav-item ms-2">
                       <Link to={Path ? "/AboutCompany" : "/"}>About Us</Link>
                     </li>
 
-                    <li class="nav-item  ms-5 ">
+                    <li class="nav-item  ms-2 ">
                       <Link to={Path ? "/Cybersecurity" : "/"}>
                         Cyber Security
                       </Link>
                     </li>
 
-                    <li class="nav-item  ms-5 ">
+                    <li class="nav-item  ms-2 ">
+                      <Link to={Path ? "SupplyChain" : "/"}>Supply Chain</Link>
+                    </li>
+
+                    <li class="nav-item  ms-2 ">
                       <Link to={Path ? "/Governance" : "/"}>Governance</Link>
                     </li>
 
-                    <li class="nav-item  ms-5 ">
+                    <li class="nav-item  ms-2 ">
                       <Link to={Path ? "/Sustainability" : "/"}>
                         Sustainability
                       </Link>
                     </li>
 
-                    <li class="nav-item  ms-5 ">
-                      <Link to={Path ? "/Safety" : "/"}>Safety & Security</Link>
+                    <li class="nav-item  ms-2 ">
+                      <Link to={Path ? "/Safety" : "/"}>Safety</Link>
                     </li>
 
                     {/* <li class="nav-item ms-5 ">
@@ -80,9 +73,6 @@ const MainHeader = () => {
                         <SearchIcon />
                       </Link>
                     </li> */}
-                  </ul>
-                  <ul className="MobileHeadera navbar-nav ms-auto mb-2 mb-lg-0">
-                    <MobileHeader HandleClick1={HandleClick1} />
                   </ul>
                 </div>
               </div>

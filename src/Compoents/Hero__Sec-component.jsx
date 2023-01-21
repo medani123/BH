@@ -15,6 +15,7 @@ const HeroSecComp = (props) => {
       </video>
       <div className="hero_head-data">
         <h2>{props.title}</h2>
+        <br />
         <p className="mx-3">{props.desc}</p>
         <a href="#" className="d-flex">
           <span className="my-2 mx-4" style={{ fontSize: 18 }}>

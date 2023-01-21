@@ -1,5 +1,10 @@
 import React from "react";
 import Card from "./Card";
+import education from "../../Images/education.jpeg";
+import eth from "../../Images/eth.jpeg";
+import team from "../../Images/team.jpeg";
+import stake from "../../Images/stake.jpeg";
+import saf from "../../Images/saf.jpeg";
 
 const ChallengeCards = () => {
   return (
@@ -24,7 +29,7 @@ const ChallengeCards = () => {
 
           <div className="col-md-4">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-reliance%20on%20hydrocarbons-will-not-disappear.webp?h=64ce14d1&itok=kyFeHDO7"
+              img={team}
               title={<span>In the Community</span>}
               description="We believe as much in doing good as we do in doing well. (CSR) practices bring innovation, enhanced brand value and improved relationships with our stakeholders and the communities we work in."
             />
@@ -32,7 +37,7 @@ const ChallengeCards = () => {
 
           <div className="col-md-4">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+              img={education}
               title={<span>Education</span>}
               description="ASPS invests in education and takes on the task to spread and diversify the existing oil and gas industry knowledge. The sector we represent is in constant need of well prepared specialists to suit our wide range of integrated businesses."
             />
@@ -40,7 +45,7 @@ const ChallengeCards = () => {
 
           <div className="col-md-4">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+              img={saf}
               title={<span>Safety</span>}
               description="Safety is a primary concern and consideration in all activities conducted at ASPS. We discover, extract, handle, refine and distribute hydrocarbons and their derivatives in ways that minimise the danger to our staff, our collaborators and clients."
             />
@@ -48,7 +53,7 @@ const ChallengeCards = () => {
 
           <div className="col-md-4">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+              img={stake}
               title={<span>Stakeholders</span>}
               description="ASPS aims to maintain a strong and transparent bond with our stakeholders, which promotes constructive and sustainable development. We will always promote respect, equality, and diversity among our stakeholders by proliferating a non-discriminatory relationship and professional climate."
             />
@@ -56,7 +61,7 @@ const ChallengeCards = () => {
 
           <div className="col-md-4">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+              img={eth}
               title={<span>Ethics</span>}
               description="ASPS is firmly committed to not only following but promoting fair, ethical, and socially responsible business practices in our offices, sites, and partner facilities. We accept no less than industry standard and best practices in all of our operations and services."
             />

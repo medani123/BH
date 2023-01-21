@@ -1,8 +1,19 @@
 import React from "react";
+import HeroSecComp from "../../Compoents/Hero__Sec-component";
+import { video } from "../../constant";
 
 function Safety() {
   return (
     <>
+      <div className="energy_head">
+        <HeroSecComp
+          video={video}
+          title="Safety"
+          desc="We value the health and safety of all our employees during the exploration or production phases."
+          //linkIcon={<ArrowDownwardIcon />}
+          //link="Explore"
+        />
+      </div>
       <div className="container my-5">
         <div className="row about__all-middle">
           <div className="col-md-5">
@@ -32,7 +43,7 @@ function Safety() {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">At ASPS WE:</h1>
+            <h3 className="mt-3 mb-3 ">At ASPS WE:</h3>
             <div className="about__organized-text">
               <ul>
                 <p>
@@ -87,7 +98,7 @@ function Safety() {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Responsiblities</h1>
+            <h3 className="mt-3 mb-3 ">Responsiblities</h3>
             <div className="about__organized-text">
               <p>
                 The Project Manager is responsible for ensuring that the Project
@@ -111,7 +122,7 @@ function Safety() {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Project HSE Plan</h1>
+            <h3 className="mt-3 mb-3 ">Project HSE Plan</h3>
             <div className="about__organized-text">
               <p>
                 A Project-specific HSE Management Plan will be developed, which
@@ -140,7 +151,7 @@ function Safety() {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">General Environmental Programs</h1>
+            <h3 className="mt-3 mb-3 ">General Environmental Programs</h3>
             <div className="about__organized-text">
               <p>
                 The design of facilities, construction and operation shall

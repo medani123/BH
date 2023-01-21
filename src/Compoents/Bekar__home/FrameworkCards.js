@@ -1,6 +1,14 @@
 import React from "react";
 
 import Card from "./Card";
+import s1 from "../../Images/s1.jpeg";
+import s2 from "../../Images/s2.jpeg";
+import s3 from "../../Images/s3.jpeg";
+
+import s6 from "../../Images/s6.jpeg";
+
+import s8 from "../../Images/s8.jpeg";
+import s9 from "../../Images/s9.jpeg";
 
 const FrameworkCards = () => {
   return (
@@ -16,8 +24,8 @@ const FrameworkCards = () => {
         <div className="row">
           <div className="col-md-6">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj"
-              title={<span>Seize opportunities, minimize risks.</span>}
+              img={s3}
+              title={<span>Seize opportunities, minimize risks</span>}
               description={
                 <span>
                   Sustainability is our guiding principle, supporting us in our
@@ -33,8 +41,8 @@ const FrameworkCards = () => {
 
           <div className="col-md-6">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq"
-              title={<span>Sustainability in the Supply Chain.</span>}
+              img={s1}
+              title={<span>Sustainability in the Supply Chain</span>}
               description={
                 <span>
                   “Sustainability in the Supply Chain” is based on a holistic
@@ -54,32 +62,8 @@ const FrameworkCards = () => {
         <div className="row">
           <div className="col-md-6">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj"
-              title={
-                <span>
-                  Principles of the Code of Conduct for ASPS Suppliers and
-                  Third-Party Intermediaries.
-                </span>
-              }
-              description={
-                <span>
-                  The Code of Conduct defines ASPS sustainability standards and
-                  principles for our partners, who are obliged to comply with
-                  its provisions: Legal compliance Prohibition of corruption and
-                  bribery Fair competition, anti-trust laws and intellectual
-                  property rights Conflicts of interest Respect for the basic
-                  human rights of employees Prohibition of child labor Health
-                  and safety of employees Environmental protection Transparency
-                  in the supply chain Responsible Minerals Sourcing.
-                </span>
-              }
-            />
-          </div>
-
-          <div className="col-md-6">
-            <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq"
-              title={<span>Risk Awareness in our Supply Chain.</span>}
+              img={s8}
+              title={<span>Risk Awareness in our Supply Chain</span>}
               description={
                 <span>
                   ASPS has implemented a system of interconnected processes and
@@ -97,15 +81,10 @@ const FrameworkCards = () => {
               }
             />
           </div>
-        </div>
-      </div>
 
-      <div className="container my-5">
-        <div className="our__framework-all "></div>
-        <div className="row">
           <div className="col-md-6">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj"
+              img={s9}
               title={<span>Risk Exposure in our Supply Chain </span>}
               description={
                 <span>
@@ -120,10 +99,15 @@ const FrameworkCards = () => {
               }
             />
           </div>
+        </div>
+      </div>
 
+      <div className="container my-5">
+        <div className="our__framework-all "></div>
+        <div className="row">
           <div className="col-md-6">
             <Card
-              img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq"
+              img={s2}
               title={
                 <span>
                   Supplier communications and extending our values further into
@@ -142,6 +126,30 @@ const FrameworkCards = () => {
                   to extend these values and sustainability requirements further
                   into their own supply chain in order to create a network of
                   interactions and business relations that are built on trust.
+                </span>
+              }
+            />
+          </div>
+
+          <div className="col-md-6">
+            <Card
+              img={s6}
+              title={
+                <span>
+                  Principles of the Code of Conduct for ASPS Suppliers &
+                  Third-Party Intermediaries.
+                </span>
+              }
+              description={
+                <span>
+                  The Code of Conduct defines ASPS sustainability standards and
+                  principles for our partners, who are obliged to comply with
+                  its provisions: Legal compliance Prohibition of corruption and
+                  bribery Fair competition, anti-trust laws and intellectual
+                  property rights Conflicts of interest Respect for the basic
+                  human rights of employees Prohibition of child labor Health
+                  and safety of employees Environmental protection Transparency
+                  in the supply chain Responsible Minerals Sourcing.
                 </span>
               }
             />

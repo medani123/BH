@@ -1,24 +1,19 @@
 import React from "react";
+import { video } from "../../constant";
 import "./Sustainability.css";
+import HeroSecComp from "../../Compoents/Hero__Sec-component";
 
 const AboutCompany = () => {
   return (
     <>
-      <div class="hero-container">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="hero ms-lg-5 ps-lg-2">
-                <div className="hero__text ps-lg-1">
-                  <h1 className="mb-5 about__head">Sustainability</h1>
-                  <p className="about__para">
-                    Sustainability is at the core of our strategy.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="energy_head">
+        <HeroSecComp
+          video={video}
+          title="Sustainability"
+          desc="Sustainability is at the core of our strategy"
+          //linkIcon={<ArrowDownwardIcon />}
+          //link="Explore"
+        />
       </div>
 
       <div className="container my-5">
@@ -49,24 +44,27 @@ const AboutCompany = () => {
         </div>
       </div>
 
-      {/* <div className="about__bg-img">
+      <div className="about__bg-img">
         <div className="container">
           <div className="row">
             <div className="col-md-6 ">
               <div className="about__dash-line2 mb-5"></div>
               <div className="about__global-desc px-0 mb-4 mt-3">
-                <h1 className=""> We are global</h1>
+                <h1 className="">
+                  {" "}
+                  We have chosen to prioritize themes to best match our
+                  businesses and customer segments.
+                </h1>
                 <p className="mb-5">
-                  But we're local too. With business conducted in more than 120
-                  countries we work in partnership with our customers, wherever
-                  they are, to deliver better outcomes. We are proud that our
-                  people and our businesses are part of the fabric of the
-                  communities in which they work.
+                  These are also themes where we can make the biggest
+                  difference, either by reducing our negative impacts or
+                  maximizing our positive contributions to achieving the AKTIVA
+                  SDGs.
                 </p>
               </div>
             </div>
           </div>
-          <div className="row ">
+          {/* <div className="row ">
             <div className="col-md-4 about__global-achived">
               <div className="about-global-text px-5">
                 <h1 className="mb-5">204</h1>
@@ -96,27 +94,7 @@ const AboutCompany = () => {
                 </p>
               </div>
             </div>
-          </div>
-        </div>
-      </div> */}
-
-      <div className="container my-5">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">
-              We have chosen to prioritize themes to best match our businesses
-              and customer segments.{" "}
-            </h1>
-            <div className="about__organized-text">
-              <h5 className="my-3 ms-2 ">
-                These are also the three themes where we can make the biggest
-                difference: either by reducing our negative impacts or
-                maximizing our positive contributions to achieving the AKTIVA
-                SDGs.
-              </h5>
-            </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -124,7 +102,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Safety</h1>
+            <h3 className="mt-3 mb-3 ">Safety</h3>
             <div className="about__organized-text">
               <p>
                 Safety is the foundation of everything we do. Our business
@@ -142,7 +120,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">People</h1>
+            <h3 className="mt-3 mb-3 ">People</h3>
             <div className="about__organized-text">
               <p>
                 Arabian Summit Petroleum Services Company is a truly global
@@ -162,7 +140,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Circularity</h1>
+            <h3 className="mt-3 mb-3 ">Circularity</h3>
             <div className="about__organized-text">
               <p>
                 Arabian Summit Petroleum Services Company is in the business of
@@ -182,7 +160,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Our Strategy</h1>
+            <h3 className="mt-3 mb-3 ">Our Strategy</h3>
             <div className="about__organized-text">
               <p>
                 To manage the social impacts while maximizing the productivity
@@ -202,7 +180,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Our Commitments</h1>
+            <h3 className="mt-3 mb-3 ">Our Commitments</h3>
             <div className="about__organized-text">
               <ul>
                 <p>

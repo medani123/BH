@@ -32,7 +32,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Board of Directors</h1>
+            <h3 className="mt-3 mb-3 ">Board of Directors</h3>
             <div className="about__organized-text">
               <p>
                 The Board represents and is accountable to the shareholders of
@@ -53,7 +53,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Audit Committee</h1>
+            <h3 className="mt-3 mb-3 ">Audit Committee</h3>
             <div className="about__organized-text">
               <p>
                 The Audit Committee meets at least twice a year to monitor the
@@ -71,7 +71,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Remuneration Committee</h1>
+            <h3 className="mt-3 mb-3 ">Remuneration Committee</h3>
             <div className="about__organized-text">
               <p>
                 The Remuneration Committee meets at least annually and is
@@ -88,9 +88,9 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">
+            <h3 className="mt-3 mb-3 ">
               Quality, Health, Safety and Environment (QHSE)
-            </h1>
+            </h3>
             <div className="about__organized-text">
               <p>
                 Arabian Summit Petroleum Services Company has an overriding
@@ -122,9 +122,9 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">
+            <h3 className="mt-3 mb-3 ">
               Arabian Summit Petroleum Services Company QHSE Vision{" "}
-            </h1>
+            </h3>
             <div className="about__organized-text">
               <p>
                 “We will achieve a workplace where nobody gets hurt, everyone
@@ -140,9 +140,9 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">
+            <h3 className="mt-3 mb-3 ">
               Arabian Summit Petroleum Services Company QHSE Mission
-            </h1>
+            </h3>
             <div className="about__organized-text">
               <p>
                 To implement and maintain a QHSE management System that
@@ -177,7 +177,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Cyber Security </h1>
+            <h3 className="mt-3 mb-3 ">Cyber Security </h3>
             <div className="about__organized-text">
               <p>
                 Cybersecurity is identified and treated as high risk to Arabian
@@ -203,7 +203,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Internal control</h1>
+            <h3 className="mt-3 mb-3 ">Internal control</h3>
             <div className="about__organized-text">
               <p>
                 The Directors acknowledge their responsibility for the Company's
@@ -222,7 +222,7 @@ const AboutCompany = () => {
         <div className="row">
           <div className="col-md-12">
             <div className="about__dash-line2  ms-2"></div>
-            <h1 className="mt-3 mb-3 ">Accreditations</h1>
+            <h3 className="mt-3 mb-3 ">Accreditations</h3>
             <div className="about__organized-text">
               <p>
                 Arabian Summit Petroleum Services Company is accredited and

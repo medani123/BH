@@ -8,29 +8,21 @@ import AboutStories from "../Compoents/Company/AboutStories";
 import SouthIcon from "@mui/icons-material/South";
 import AboutBrands from "../Compoents/Company/AboutBrands";
 import image01 from "../Images/Culture.png";
+import image2 from "../Images/image2.jpeg";
+import HeroSecComp from "../Compoents/Hero__Sec-component";
+import { video } from "../constant";
 
 const AboutCompany = () => {
   return (
     <>
-      <div class="hero-container">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="hero ms-lg-5 ps-lg-2">
-                <div className="hero__text ps-lg-1">
-                  <h1 className="mb-5 about__head">About Us</h1>
-                  <p className="about__para">
-                    We are the leading energy technology company.
-                    <br />
-                    We design, manufacture and service transformative
-                    technologies <br />
-                    to help take energy forward.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div className="energy_head">
+        <HeroSecComp
+          video={video}
+          title="About Us"
+          desc="We are the leading energy technology company"
+          //linkIcon={<ArrowDownwardIcon />}
+          //link="Explore"
+        />
       </div>
 
       <div className="container my-5">
@@ -41,7 +33,6 @@ const AboutCompany = () => {
               <div className="about__dast-text">ABOUT US</div>
             </div>
           </div>
-
           <div className="col-md-8">
             <h5 className="about__description-middle mb-4 ">
               Arabian SPSC has the industry-leading technologies, solutions, and
@@ -51,12 +42,7 @@ const AboutCompany = () => {
             </h5>
           </div>
 
-          <div className="button d-flex mb-5">
-            <button type="button" class="btn btn-success about__button">
-              <SouthIcon />
-            </button>
-            <p className="mt-3 ms-4">EXPLORE</p>
-          </div>
+          <div className="button d-flex mb-5"></div>
         </div>
       </div>
 

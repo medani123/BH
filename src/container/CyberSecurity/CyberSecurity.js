@@ -2,6 +2,15 @@ import React from "react";
 import "./CyberSecurity.css";
 import { HomeSectionTwo } from "../../constant";
 import Card from "../../Compoents/Bekar__home/Card";
+import image from "../../Images/sec.jpg";
+import image3 from "../../Images/image3.jpeg";
+import image4 from "../../Images/image4.jpeg";
+import cr from "../../Images/cyber/cr.png";
+import gr from "../../Images/cyber/gr.png";
+import lr from "../../Images/cyber/lr.png";
+import ph from "../../Images/cyber/ph.png";
+import tc from "../../Images/cyber/tc.png";
+import ts from "../../Images/cyber/ts.png";
 
 import {
   SectionTwo,
@@ -38,7 +47,7 @@ function EnergyTransition() {
           </div>
           <div className="col-md-6">
             <div className="img-fluid mt-2  HomeSectionTwo ">
-              <img src={HomeSectionTwo} alt="" className="w-100 " />
+              <img src={image} alt="" className="w-100 " />
             </div>
           </div>
         </div>
@@ -59,13 +68,15 @@ function EnergyTransition() {
               especially on its operational technology.
             </h2>
             <br />
-            <h1 className="our__framework-all ">
-              6 key global trends making cybersecurity a top priority
-            </h1>
+            <h2 className="our__framework-all ">
+              <strong>
+                Six key global trends making cybersecurity a top priority
+              </strong>
+            </h2>
             <div className="row">
               <div className="col-md-4">
                 <Card
-                  img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/small_3_2_768x512_/public/2020-11/3-column%20image%20card%201.jpg?h=2ce5e5b3&itok=R2mDEkJH"
+                  img={gr}
                   title={<span>Growing risks for business</span>}
                   description="For the first time ever, cyber incidents ranked globally as the most important business risk in the ninth Allianz Risk Barometer 2020. Cyber incidents have become increasingly damaging and expensive for companies – and often lead to lawsuits and litigation after the event."
                 />
@@ -73,15 +84,15 @@ function EnergyTransition() {
 
               <div className="col-md-4">
                 <Card
-                  img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-reliance%20on%20hydrocarbons-will-not-disappear.webp?h=64ce14d1&itok=kyFeHDO7"
+                  img={tc}
                   title={<span>Technological changes</span>}
-                  description="By 2023, there will be over three times more networked devices on our planet than humans, according to Cisco’s latest Annual Internet Report analysis and forecast. Roughly half of all global connections will be from machine to machine."
+                  description="By 2023, there will be over three times more networked devices on our planet than humans, according to Cisco’s Annual Internet Report analysis and forecast. Roughly half of all global connections will be from machine to machine."
                 />
               </div>
 
               <div className="col-md-4">
                 <Card
-                  img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+                  img={ts}
                   title={<span>Talent shortage</span>}
                   description="The 2022 Cybersecurity Workforce Study examined the global talent shortage in the field and found that companies could use 3.1 million additional cybersecurity experts, nearly double the number that is available today."
                 />
@@ -89,7 +100,7 @@ function EnergyTransition() {
 
               <div className="col-md-4">
                 <Card
-                  img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+                  img={ph}
                   title={<span>Professional hacking</span>}
                   description="Nation-state players and cybercrime organizations are intensifying their activities in cyberspace in 2022. The ongoing COVID-19 pandemic is providing them with new opportunities to target businesses, government organizations, infrastructures, and individuals worldwide."
                 />
@@ -97,15 +108,15 @@ function EnergyTransition() {
 
               <div className="col-md-4">
                 <Card
-                  img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+                  img={lr}
                   title={<span>Laws and regulations </span>}
-                  description="Personal data protection and privacy laws are rapidly evolving in the United States and other countries throughout the world. While some regions have adopted a more rigid and comprehensive approach, other countries are embracing more sectoral and self-regulated ideologies."
+                  description="Personal data protection and privacy laws are rapidly evolving in the United States & other countries around the world. While some regions have adopted a more rigid and comprehensive approach, other countries are embracing more sectoral & self-regulated ideologies."
                 />
               </div>
 
               <div className="col-md-4">
                 <Card
-                  img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-no-path-without-partnership.webp?h=dd95d1c7&itok=SBJ6S0Lv"
+                  img={cr}
                   title={<span>Customer requirements</span>}
                   description="Cybersecurity is becoming an essential baseline requirement for contracting in both the public and private sectors. Only companies that are able to prove they meet high cybersecurity requirements will be shortlisted for contracts."
                 />
@@ -142,8 +153,8 @@ function EnergyTransition() {
           <div className="row">
             <div className="col-md-6">
               <Card
-                img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-sustainable-technology-for-tomorrow.webp?h=5a22e328&itok=IFrYfEqj"
-                title={<span>Industrial Cybersecurity.</span>}
+                img={image4}
+                title={<span>Industrial Cybersecurity</span>}
                 description={
                   <span>
                     Our Product and Solution Security (PSS) initiative enables
@@ -161,8 +172,8 @@ function EnergyTransition() {
 
             <div className="col-md-6">
               <Card
-                img="	https://www.bakerhughes.com/sites/bakerhughes/files/styles/large_3_2_2x/public/2020-12/Energy-transition-capabilities-framework-largest-sources-of-scope-1-and-2-emissions.webp?h=ea95bb15&itok=KAq9KmWq"
-                title={<span>Active cyber risk management.</span>}
+                img={image3}
+                title={<span>Active cyber risk management</span>}
                 description={
                   <span>
                     The integrated Cybersecurity Risk Management Framework at

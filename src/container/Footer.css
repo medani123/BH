@@ -17,7 +17,7 @@ ul {
   color: #02a783;
 }
 .footer_container {
-  background-color: #27272c;
+  background-color: whitesmoke;
   color: white;
   padding: 4rem 0;
   display: flex;
@@ -89,14 +89,14 @@ ul {
   }
 }
 .BottomSeection {
-  background-image: url('https://www.bakerhughes.com/sites/bakerhughes/files/styles/energy_forward_list_view/public/2022-12/dsc_5108_1.webp?itok=0kilJ_4z');
+  background-image: url("https://www.bakerhughes.com/sites/bakerhughes/files/styles/energy_forward_list_view/public/2022-12/dsc_5108_1.webp?itok=0kilJ_4z");
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .BottomSeection2 {
-  background-image: url('https://www.bakerhughes.com/sites/bakerhughes/files/styles/max_1300x1300/public/2021-11/success1.webp?itok=ZKpkFNjB');
+  background-image: url("https://www.bakerhughes.com/sites/bakerhughes/files/styles/max_1300x1300/public/2021-11/success1.webp?itok=ZKpkFNjB");
   height: 400px;
   background-repeat: no-repeat;
   background-position: center;
